@@ -1,45 +1,68 @@
-#### 3. Enjoy coding your custom theme based on Genese.
+# WP Custom Theme
 
-```shell
-custom/               # → Root folder for the project
-├── lib/
-        ├── inc/      # → WordPress Hooks and miscellanous helper functions.
-        └── walkers/
-├── resources/
-        ├── assets/   # → Frontend assets source and Configs of compiling process.
-        ├── lang/
-        └── scripts/  # → Do touch, scripts to compile assets.
-└── template-parts/
+WP Custom theme is a wordpress custom theme
+
+## Installation
+
+Clone the project or download zip.
+
+
+
+## Directory Structure
+```
+wp-custom-theme/
+├─ lib/
+│  ├─ inc/
+│  │  ├─ ....
+│  │  ├─ helpers.php
+│  │  ├─ hooks.php
+│  │  ├─ ....
+├─ node_modules/
+├─ resources/
+│  ├─ assets/
+│  │  ├─ src/
+│  │  │  ├─ js/
+│  │  │  ├─ sass/
+│  ├─ ...../
+├─ template-parts/
+│  ├─ ....
+├─ .gitignore
+├─ style.css
+├─ package.json
+├─ README.md
+
 ```
 
 
-## 3.1 — Customize the frontend.
+## Customize the frontend.
 First you should get Nodejs installed on your machine.
-Then install npm dependencies
+
 ```bash
+# Navigate to theme directory
+cd wp-content/themes/custom-theme
+
+# Install the dependencies
 npm install
-```
-Configure the assets bundling
-```./resources/assets/config.js```
-Start the dev script
-```bash
+
+# Start the dev 
 npm run start
-```
-```bash
+
+# Build the assets for production
 npm run build
+
 ```
-  - 3.1.1 — Customize webpack
-  - 3.1.2 — Include scripts into WordPress
+  - Customize webpack
+  - Include scripts into WordPress
  
-## 3.2 — Setup the theme.
-  - 3.2.1 — Declare navigations
-  - 3.2.2 — Declare widget areas (sidebars)
+## Setup the theme.
+  - Declare navigations
+  - Declare widget areas (sidebars)
  
-## 3.3 — Customize templates
-  - 3.3.1 — Customize the base template
-  - 3.3.2 — Customize the template parts
-    - 3.3.2.1 — Index views (index.php, archive.php, search.php)
-    - 3.3.2.2 — Single views (single.php, page.php)
+## Customize templates
+  - Customize the base template
+  - Customize the template parts
+    - Index views (index.php, archive.php, search.php)
+    - Single views (single.php, page.php)
 
 ## Inspired by
 
