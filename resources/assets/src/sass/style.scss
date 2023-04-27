@@ -1,0 +1,13 @@
+@import 'vendors/normalize.css';
+@import "base/skip";
+@import "base/variables";
+
+// Global partials.
+// -----------------------------------------------------------------------------
+@import "base/mixins";
+
+// Partials.
+// --------------------------------------------------
+@import "base/global";
+@import 'layouts/**/*.scss';
+@import 'components/**/*.scss';

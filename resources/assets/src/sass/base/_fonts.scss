@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "CalibreSemibold";
+    src: url("#{$fontPath}/Calibre-Semibold.eot");
+    src: url("#{$fontPath}/Calibre-Semibold.eot?#iefix") format("embedded-opentype"),
+        url("#{$fontPath}/Calibre-Semibold.woff2") format("woff2"),
+        url("#{$fontPath}/Calibre-Semibold.woff") format("woff"),
+        url("#{$fontPath}/Calibre-Semibold.ttf") format("truetype"),
+        url("#{$fontPath}/Calibre-Semibold.svg#Calibre-Semibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CalibreRegular";
+    src: url("#{$fontPath}/CalibreRegular.eot");
+    src: url("#{$fontPath}/CalibreRegular.eot") format("embedded-opentype"),
+        url("#{$fontPath}/CalibreRegular.woff2") format("woff2"), url("#{$fontPath}/CalibreRegular.woff") format("woff"),
+        url("#{$fontPath}/CalibreRegular.ttf") format("truetype"),
+        url("#{$fontPath}/CalibreRegular.svg#CalibreRegular") format("svg");
+}
+
+@font-face {
+    font-family: "CalibreBold";
+    src: url("#{$fontPath}/CalibreBold.eot");
+    src: url("#{$fontPath}/CalibreBold.eot") format("embedded-opentype"),
+        url("#{$fontPath}/CalibreBold.woff2") format("woff2"), url("#{$fontPath}/CalibreBold.woff") format("woff"),
+        url("#{$fontPath}/CalibreBold.ttf") format("truetype"),
+        url("#{$fontPath}/CalibreBold.svg#CalibreBold") format("svg");
+}
+
+@font-face {
+    font-family: "CornerIcon";
+    src: url("#{$fontPath}/CornerIcon.eot");
+    src: url("#{$fontPath}/CornerIcon.eot") format("embedded-opentype"),
+        url("#{$fontPath}/CornerIcon.woff") format("woff"), url("#{$fontPath}/CornerIcon.ttf") format("truetype"),
+        url("#{$fontPath}/CornerIcon.svg#CornerIcon") format("svg");
+}
